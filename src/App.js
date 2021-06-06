@@ -1,8 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Dashboard from "./layouts/Dashboard";
+import Navi from "./layouts/Navi";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Navi></Navi>
+      <Dashboard></Dashboard>
+    </div>
+  );
 }
 
 export default App;
