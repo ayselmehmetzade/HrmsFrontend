@@ -22,6 +22,7 @@ export default function JobPostList() {
             <Table.HeaderCell>City</Table.HeaderCell>
             <Table.HeaderCell>Open Position Quota</Table.HeaderCell>
             <Table.HeaderCell>Application Deadline</Table.HeaderCell>
+            <Table.HeaderCell>Employment Type</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
 
@@ -33,13 +34,14 @@ export default function JobPostList() {
               <Table.Cell>{jobPosting.city.name}</Table.Cell>
               <Table.Cell>{jobPosting.openPositionQuota}</Table.Cell>
               <Table.Cell>{jobPosting.applicationDeadline}</Table.Cell>
+              <Table.Cell>{jobPosting.employmentType.name}</Table.Cell>
             </Table.Row>
           ))}
         </Table.Body>
 
         <Table.Footer>
           <Table.Row>
-            <Table.HeaderCell colSpan="5">
+            <Table.HeaderCell colSpan="6">
               <Menu floated="right" pagination>
                 <Menu.Item as="a" icon>
                   <Icon name="chevron left" />

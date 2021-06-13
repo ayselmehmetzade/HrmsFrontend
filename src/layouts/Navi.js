@@ -7,8 +7,8 @@ export default function Navi() {
     <div>
       <Menu size="tiny" inverted fixed="top">
         <Container>
-          <Menu.Item name="home" />
-          <Menu.Item name="messages" />
+          <Menu.Item name="Home" />
+          <Menu.Item name="Job Postings" />
 
           <Menu.Menu position="right">
             <Dropdown item text="Language">
