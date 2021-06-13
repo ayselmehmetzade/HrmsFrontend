@@ -14,7 +14,7 @@ export default function JobPostList() {
 
   return (
     <div>
-      <Table celled>
+      <Table celled color="black" key="black">
         <Table.Header>
           <Table.Row>
             <Table.HeaderCell>Job Title</Table.HeaderCell>

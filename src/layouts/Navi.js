@@ -9,6 +9,9 @@ export default function Navi() {
         <Container>
           <Menu.Item name="Home" />
           <Menu.Item name="Job Postings" />
+          <Menu.Item name="Job Positions" />
+          <Menu.Item name="Cities" />
+          <Menu.Item name="Employers" />
 
           <Menu.Menu position="right">
             <Dropdown item text="Language">
